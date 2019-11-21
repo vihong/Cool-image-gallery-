@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightcoral;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+//   font-family: "Amatic SC", cursive;
+  font-size: 20px;
+}
+
+.panels {
+  min-height: 100vh;
+  overflow: hidden;
+//   border: 1px solid blue;
+  display: flex;
+}
+
+// *, *:before, *:after{
+//     box-sizing: inherit;
+// }
+
+.panel {
+  border: 1px solid black;
+  background: #6b0f9c;
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
+  text-align: center; //plus concis et remplace "disaply: flex, flex-direction : column"
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+    background 0.2s;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.panel > * {
+  margin: 0;
+  width: 100%;
+  transition: transform 0.5s;
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel p {
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+  font-size: 2em;
+//   border: 1px solid red;
+}
+
+.panel p:nth-child(2) {
+  font-size: 4em;
+}
+
+
+.panel :first-child{transform: translateY(-100%);}
+.panel.open-active :first-child{transform: translateY(0);}
+.panel :last-child{ transform: translateY(100%);}
+.panel.open-active :last-child{ transform: translateY(0);}
+
+.panel.open {
+  font-size: 40px;
+  flex: 5;
+}
+
+.panel1 {
+  background-image: url(https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+}
+.panel2 {
+  background-image: url(https://images.pexels.com/photos/937546/pexels-photo-937546.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+}
+.panel3 {
+  background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+}
+.panel4 {
+  background-image: url(https://images.pexels.com/photos/360624/pexels-photo-360624.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+}
+.panel5 {
+  background-image: url(https://images.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+}
+
+// .panel p {
+//     color: gold;
+// }
