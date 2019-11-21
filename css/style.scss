@@ -1,14 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Amatic+SC&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Amatic+SC&display=swap");
 
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: lightcoral;
+//   background-color: lightcoral;
   box-sizing: border-box;
-  font-family: "Quicksand", sans-serif;
   font-family: "Shadows Into Light", cursive;
 //   font-family: "Amatic SC", cursive;
   font-size: 20px;
@@ -74,21 +73,11 @@ body {
   flex: 5;
 }
 
-.panel1 {
-  background-image: url(https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-}
-.panel2 {
-  background-image: url(https://images.pexels.com/photos/937546/pexels-photo-937546.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-}
-.panel3 {
-  background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
-}
-.panel4 {
-  background-image: url(https://images.pexels.com/photos/360624/pexels-photo-360624.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-}
-.panel5 {
-  background-image: url(https://images.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-}
+.panel1 { background-image: url(https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);}
+.panel2 { background-image: url(https://images.pexels.com/photos/937546/pexels-photo-937546.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);}
+.panel3 { background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);}
+.panel4 { background-image: url(https://images.pexels.com/photos/360624/pexels-photo-360624.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);}
+.panel5 { background-image: url(https://images.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);}
 
 // .panel p {
 //     color: gold;
